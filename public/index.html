@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- mobile screen -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+       <meta property="og:title" content="Code-Diy">
+       <meta property="og:image" content="%PUBLIC_URL%/favicon.ico">
+
+      <title>Code DIY</title>
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="shortcut icon" type="image/png" href="https://www.flaticon.com/authors/simpleicon">
+      <script src="//cdn.polyfill.io/v2/polyfill.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+      <!-- <script src="https://www.paypal.com/sdk/js?client-id=AQwoZAAHsmA5vBLj_mZffS3NWJjNJODewuV2WakPm-BQilgsawTtnbLvWHNC73idcfiaHBOjaeTDkAS8"></script>-->
+      <!-- Razor pay Javascript -->
+      <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+      <script src="https://fb.me/react-15.1.0.js"></script>
+      <script src="https://fb.me/react-dom-15.1.0.js"></script>
+<!--      <script type="text/javascript">
+   (function(d, m){var s, h;
+   s = document.createElement("script");
+   s.type = "text/javascript";
+   s.async=true;
+   s.src="https://apps.applozic.com/sidebox.app";
+   h=document.getElementsByTagName('head')[0];
+   h.appendChild(s);
+   window.applozic=m;
+   m.init=function(t){m._globals=t;}})(document, window.applozic || {});
+</script>-->
+<script type="text/javascript">
+//console.log(localStorage.getItem('id'))
+let userData = [];
+let userName = '';
+if(localStorage.getItem('isLoggedIn') && localStorage.getItem('userType') == 'user') {
+    var userId = localStorage.getItem('id')
+    userData = JSON.parse(localStorage.getItem('userData'));
+    userName = userData.firstName+" "+userData.lastName
+}else if(localStorage.getItem('isLoggedIn') && localStorage.getItem('userType') == 'mentor') {
+    userId = localStorage.getItem('mentorId')
+    userData = JSON.parse(localStorage.getItem('userData'));
+    userName = userData.firstName+" "+userData.lastName
+}
+console.log(userName)
+  // window.applozic.init({
+  //   appId: 'codediy2d1a603d9dbd00873e35ec1',      //Get your application key from https://www.applozic.com
+  //   userId: userId || "test1245",                     //Logged in user's id, a unique identifier for user
+  //   userName: userName || "TEST",                 //User's display name
+  //   imageLink : '',                     //User's profile picture url
+  //   email : '',                         //optional
+  //   contactNumber: '',                  //optional, pass with internationl code eg: +13109097458
+  //   desktopNotification: true,
+  //   source: '1',                          // optional, WEB(1),DESKTOP_BROWSER(5), MOBILE_BROWSER(6)
+  //   notificationIconLink: 'https://www.applozic.com/favicon.ico',    //Icon to show in desktop notification, replace with your icon
+  //   authenticationTypeId: 1,          //1 for password verification from Applozic server and 0 for access Token verification from your server
+  //   accessToken: '',                    //optional, leave it blank for testing purpose, read this if you want to add additional security by verifying password from your server https://www.applozic.com/docs/configuration.html#access-token-url
+  //   locShare: true,
+  //   googleApiKey: "AIzaSyDKfWHzu9X7Z2hByeW4RRFJrD9SizOzZt4",   // your project google api key
+  //   mapStaticAPIkey: "AIzaSyCWRScTDtbt8tlXDr6hiceCsU83aS2UuZw",
+  //   googleMapScriptLoaded : false,   // true if your app already loaded google maps script
+  //   autoTypeSearchEnabled : false,     // set to false if you don't want to allow sending message to user who is not in the contact list
+  //   loadOwnContacts : false, //set to true if you want to populate your own contact list (see Step 4 for reference)
+  //   onInit : function(response) {
+  //      if (response === "success") {
+  //         // login successful, perform your actions if any, for example: load contacts, getting unread message count, etc
+  //      } else {
+  //         // error in user login/register (you can hide chat button or refresh page)
+  //      }
+  //  },
+  //  contactDisplayName: function(otherUserId) {
+  //        //return the display name of the user from your application code based on userId.
+  //        return "";
+  //  },
+  //  contactDisplayImage: function(otherUserId) {
+  //        //return the display image url of the user from your application code based on userId.
+  //        return "";
+  //  },
+  //  onTabClicked: function(response) {
+  //        // write your logic to execute task on tab load
+  //        //   object response =  {
+  //        //    tabId : userId or groupId,
+  //        //    isGroup : 'tab is group or not'
+  //        //  }
+  //  }
+  // });
+</script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+  </body>
+<!--   <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.21.7.min.js"></script>-->
+</html>
+

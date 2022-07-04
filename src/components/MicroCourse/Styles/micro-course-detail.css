@@ -1,0 +1,113 @@
+.article_content{
+    padding-top: 15px;
+}
+.intro-content-description{
+    width: 100%;
+    line-height: 1.2em;
+    height: 3.6em;
+    background-color: gainsboro;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.article_innercont{
+    margin-bottom:8px;
+}
+
+.course-box {
+    outline-style: solid;
+}
+
+.course-body {
+    font-family: "Open Sans", Arial, sans-serif;
+    min-height: 400px;
+}
+
+.course-div {
+    min-height: 230px;
+}
+.course-name {
+    background-color: #49a2ff;
+    padding: 10px;
+    color: #fff !important;
+    font-family: sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    min-height: 55px;
+}
+.course-name :hover{
+    color: #fff !important;
+}
+.course-image {
+    width: 100%;
+}
+
+.course-img {
+    padding-top: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.course-author {
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+.course-content {
+    padding-left: 10px;
+}
+
+.paypal-button {
+    padding-bottom: 10px;
+}
+
+.intro-header {
+    font-size: 18px;
+    color: black
+}
+
+.intro-content {
+    font-size: 12px;
+}
+
+.intro-button {
+    padding-top: 20px;
+}
+
+.course-complete {
+    color: #49a2ff;
+    font-size: 14px;
+}
+.menu-name {
+    padding-top: 20px;
+}
+.lesson-name {
+    text-align: left
+}
+
+.ant-menu-sub.ant-menu-inline .ant-menu-item {
+    padding-left: unset !important;
+}
+
+.a-text-strike {
+    text-decoration: line-through;
+}
+
+.block_locker {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.account-pg{
+    padding: 20px 5px 20px 5px;
+}
+
+.block_image {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+

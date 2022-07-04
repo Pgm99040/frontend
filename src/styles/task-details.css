@@ -1,0 +1,327 @@
+.fullPage-details {
+    background-color: #f9f9f9;
+    width: 100%;
+    float: left;
+}
+
+.background-how-it-works {
+    background: #e0e0e0;
+}
+.bull {
+    color: #a7aec2;
+    padding-right: 5px;
+}
+
+.parts {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.task-details-cards {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 0 3px 0 #dce0e6;
+    margin-bottom: 15px;
+    width: 100%;
+    float: left;
+}
+.task-details-cards .reason-select{
+    margin-bottom: 10px;
+}
+/*.mentor-discuss .mentee-discuss{*/
+/*    justify-content: end !important;*/
+/*}*/
+.no-right-padding-div .logo_image{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+}
+.task-details-cards .applozic-launcher{
+    border: none;
+    background-color: #fff;
+}
+.applozic-launcher:focus{
+    border: none !important;
+}
+.detail-flow:hover{
+    text-decoration: underline;
+}
+.detail-flow{
+   color: #5454c9 !important;
+    cursor: pointer;
+}
+.top-10 {
+    padding-top: 10px;
+}
+.padding-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.right-3 {
+    padding-right: 4px;
+}
+.left-3 {
+    padding-left: 4px;
+}
+.full-width-background {
+    background-color: #ffffff;
+    box-shadow: 0 0 2px 0 #dce0e6;
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+.task-summary{
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a0a0a0;
+    padding-bottom: 10px;
+    
+}
+.task-summary-detail{
+    font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  padding-bottom: 10px;
+  width : 90%;
+}
+.submit-task-text{
+font-size: 14px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.43;
+letter-spacing: normal;
+text-align: left;
+color: #333333;
+}
+.task-amount{
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #333333;
+}
+.marginBottom{
+    border-bottom:1px solid #eef0f3;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.progress-text{
+    font-size: 10px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #404852;
+}
+.price-block{
+    padding-bottom: 20px;
+}
+.features-text{
+    font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  padding-bottom: 10px;
+  color: #444444;
+}
+.detail-flow{
+    font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  padding-right: 20px;
+  color: #444444;
+}
+.checkboxLabel{
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #404852;
+}
+.features-block{
+    margin-bottom: 12%;
+}
+.form-task-amount{
+    font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333333;
+}
+.total-amount-text{
+    font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333333;
+}
+.take-task-button {
+    border-radius: 5px;
+    background-color: #0074ff;
+    width: 190px;
+    height: 45px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.purchase-task-button{
+    border-radius: 5px;
+    background-color: #0074ff;
+    width: 176px;
+    height: 41px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.paddingBottom{
+    padding-bottom: 20px;
+}
+.padding-sides{
+    padding:0 30px;
+}
+.description-title{
+    font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #595959;
+  padding-bottom: 10px;
+}
+.task_description{
+    font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #595959;
+}
+.task_description1{
+    font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #595959;
+  padding-bottom: 20px;
+}
+.NoItalics{
+    font-style: normal;
+}
+.task-details{
+    font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #595959;
+  padding-bottom: 10px;
+}
+.task-details-name{
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #595959;
+}
+.task-details-name-blue{
+    font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0074ff;
+}
+.googleMeetLink:visited{
+    color: #0074ff;
+}
+.googleMeetLink:focus { color: #0074ff; }
+.googleMeetLink:hover { color: #0074ff; }
+.googleMeetLink:active { color: #0074ff; }
+.browse_all{
+    font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #404852;
+}
+
+.purchase-type{
+    font-size: 15px;
+    font-weight: bold;
+    color: #444444;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+.purchase-type-option{
+    font-size: 14px;
+    margin-right:50px
+}
+
+.no-padding{
+    padding:0;
+}
+.paypal-pay{
+    display: contents;
+}

@@ -1,0 +1,134 @@
+.input-width{
+    width:25%;
+}
+.disp_block{
+    display: block;
+    padding-bottom: 10px;
+}
+.disp_blocklast{
+    display: block;
+    padding-bottom: 20px;
+}
+.emptyTask_title{
+    font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;   
+  padding-bottom: 15px;
+}
+.emptyTask_desc{
+    font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.79;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #444444;
+  padding-bottom: 30px;
+}
+.btn_submit{
+    border-color:#02367a;
+    font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #02367a;
+}
+.available-tasks{
+    font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+}
+.task_desc {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #333333;
+    /*padding-bottom: 15px;*/
+}
+.task_desc > p > a:focus {
+    color: #1890ff;;
+}
+.task_desc > p > a:hover {
+    color: #1890ff;;
+}
+.taskInProgress{
+    font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  float: left;
+  color: #00b62a;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+.taskClosed{
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    float: left;
+    color: #ff0909;
+    padding-left: 10px;
+  padding-top: 2px;
+}
+.checkedImg{
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+.completedTask{
+    font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333333;
+}
+.taskIcon{
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+}
+.task_priceText{
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #444444;
+}
+.task_rate{
+font-size: 35px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #444444;
+}
+.pb-10{
+ padding-bottom: 10px;
+}
+.pb-10 .ant-radio-group {
+    padding-bottom: 10px!important;
+}

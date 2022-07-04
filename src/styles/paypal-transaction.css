@@ -1,0 +1,15 @@
+.paypal-outer{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    display: grid;
+    place-items: center;
+}
+.paypal-inner{
+    background-color: lightgray;
+    padding: 100px;
+    border-radius: 10px;
+}
+.paypal-inner .statement{
+    margin-top: 15%;
+}

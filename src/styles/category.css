@@ -1,0 +1,30 @@
+.filter-category .ant-collapse-borderless > .ant-collapse-item > .ant-collapse-content {
+    border-top:0px;
+    padding-left: 35px;
+}
+.sub-cat-list {
+    padding-bottom: 5px;
+}
+.filter-category .ant-collapse-item {
+    border-bottom: 0px;
+}
+.filter-category .ant-collapse-borderless > .ant-collapse-item > .ant-collapse-header {
+    font-size: 14px;
+    text-align: left;
+    color: #4a4a4a;
+}
+.filter-category .ant-collapse > .ant-collapse-item > .ant-collapse-header .arrow:before {
+    content: "\E620";
+}
+.filter-category .ant-collapse-borderless > .ant-collapse-item > .ant-collapse-content > .ant-collapse-content-box {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.filter-category .ant-collapse-borderless > .ant-collapse-item > .ant-collapse-header .arrow {
+    font-size: 15px;
+    left: 10px
+}
+.filter-category .ant-collapse > .ant-collapse-item > .ant-collapse-header[aria-expanded="true"] .arrow {
+    font-size: 15px;
+    left: 10px;
+}

@@ -1,0 +1,174 @@
+.payment-history {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #333333;
+    padding-bottom: 30px;
+  }
+  .total-spent {
+    opacity: 0.9;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+    color: #333333;
+    float: right;
+    padding-bottom:30px;
+  }
+  .taskid {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: #333333;
+  }
+  
+  .task-heading{
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: #333333;
+    padding-bottom:12px;
+  }
+  
+  .mentee-task-cards {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-radius: 4px;
+      background-color: #ffffff;
+      box-shadow: 0 0 3px 0 #dce0e6;
+      margin-bottom: 10px;
+  }
+  
+  .payment-history-table {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #717171;
+  }
+
+  .mentor-discuss .mentee-mode .flex-column{
+    justify-content: end !important;
+  }
+  /*.mentor-discuss .mentor-mode .flex-column{*/
+  /*  justify-content: end !important;*/
+  /*}*/
+  .notification{
+      
+  }
+  
+  .mentee-header-content {
+    font-family: inherit;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  .content-background{
+   background-color:#f9f9f9;
+  }
+  .mentee-sidebar{
+    background-color:#ededed;
+    height:800px;
+    padding-top: 40px;
+  }
+  .mentee-name {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #444444;
+  }
+  .mentee-pay-sidemenu {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #444444;
+    padding: 0;
+  }
+  .subdiv{
+    padding-left: 25px;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+  }
+  .active-menu{
+      font-weight:bold;
+      padding:20px;
+      background-color:#f9f9f9;
+  }
+  .payment-listing-section {
+      padding-top: 30px;
+  }
+  .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #444444;
+   background-color: #f9f9f9;
+  }
+  .nav-pills>li>a {
+     border-radius: 0;
+  }
+  a{
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #444444;
+  }
+  a:hover{
+    color: #444444;
+  }
+  a:active {
+    color: #444444;
+  }
+  .myTask-desc{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #444444;
+  }
+  .myTask-to{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+   color: #02367a;
+  }
+.chat-with-mentor::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+/* Track */
+.chat-with-mentor::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey !important;
+  border-radius: 10px !important;
+}
+
+/* Handle */
+.chat-with-mentor::-webkit-scrollbar-thumb {
+  background: rgb(5, 71, 64) !important;
+  border-radius: 10px !important;
+}
+
+/* Handle on hover */
+.chat-with-mentor::-webkit-scrollbar-thumb:hover {
+  background: #303b3d !important;
+}
+.chat-with-mentor .MuiInputBase-input{
+  font-size: 15px !important;
+}

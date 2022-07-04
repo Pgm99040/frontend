@@ -1,0 +1,59 @@
+.mcq-test-record {
+    font-size: 80% !important; }
+.mcq-test-record .invite-header {
+    align-items: center;
+    margin-top: 35px; }
+.mcq-test-record .display-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 15px;
+    align-items: flex-end; }
+.mcq-test-record .cke_1 .cke_contents {
+    border: 1px solid rgba(0, 0, 0, 0.125) !important; }
+.mcq-test-record .cke_reset {
+    height: 300px !important; }
+.mcq-test-record .disabled {
+    background: #ffffff; }
+.mcq-test-record ul.pages {
+    display: inline-block;
+    margin: 0;
+    padding: 0; }
+.mcq-test-record ul.pages li {
+    display: inline-block;
+    padding: 1px 6px;
+    border: solid 1px #1d1d1c1f;
+    cursor: pointer; }
+.mcq-test-record ul.pages li.active {
+    border: 1px solid #007bff;
+    color: #007bff; }
+.mcq-test-record .code-content {
+    height: 430px; }
+.mcq-test-record .form-group {
+    position: relative;
+    margin-bottom: 0; }
+.mcq-test-record .form-group .check-container input:checked ~ .checkmark {
+    background-color: #007bff !important; }
+.mcq-test-record .form-group .check-container .checkmark {
+    position: absolute;
+    top: 6px;
+    right: 10px; }
+.mcq-test-record .mcq-test .custom-checkbox {
+    position: absolute;
+    right: 16px;
+    z-index: 1;
+    top: 8px; }
+.mcq-test-record .assignee-btn .ant-form-item-control-input-content {
+    justify-content: center;
+    display: flex; }
+.mcq-test-record .timer-comman .ant-statistic {
+    font-weight: 700; }
+.mcq-test-record .count-mcq-time .timer-comman {
+    display: flex;
+    justify-content: start;
+    offset-start: 40px; }
+
+@media screen and (max-width: 768px) {
+    .mcq-test-record .file-attach {
+        margin-top: 6rem; } }

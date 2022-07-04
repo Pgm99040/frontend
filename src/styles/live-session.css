@@ -1,0 +1,322 @@
+.live_Lerning .statement{
+    margin-top: 15%;
+}
+.live-session{
+    display: flex;
+    justify-content: center;
+}
+.live-session .session-block{
+    margin-top: 10px;
+    border: 1px solid #a09f9f;
+    box-shadow: 0 0 9px 0 rgba(102, 102, 102, 0.13);
+    background: linear-gradient(to right, #7A2EF4, #00BFFF);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.session-block .title, .live{
+    text-align: center;
+    padding: 5px 10px;
+}
+.title h4, .link{
+    color: #fff;
+}
+
+.btn-danger-bookNow {
+    color: #fff !important;
+    background-color: #d9534f !important;
+    border-color: #d43f3a !important;
+}
+
+.btn-BookNow {
+    display: inline-block !important;
+    padding: 6px 12px !important;
+    margin-bottom: 0 !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 1.42857143 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation !important;
+    cursor: pointer !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    background-image: none !important;
+    border: 1px solid transparent !important;
+    border-radius: 4px !important;
+}
+
+
+/*session-details*/
+.review{
+    margin-top: 35px;
+}
+.session-details .details{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.details .heading-title{
+    font-weight: 700;
+}
+.details .description{
+    margin-top: 10px;
+    min-height: 195px;
+}
+.details .date-and-rating{
+    /*display: flex;*/
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+.date-and-rating .rating{
+    /*display: flex;*/
+    justify-content: flex-end;
+    padding-right: unset;
+}
+.calender{
+    margin-right: 10px;
+}
+.details .date-and-rating .date{
+    display: flex;
+    align-items: center;
+    padding-left: 0 !important;
+}
+.details .date-and-rating .date .time p{
+    font-weight: bold;
+    font-size: 16px;
+}
+.details .banner-img{
+    height: 100%;
+    width: 100%;
+}
+ .calender .date-no{
+    width: 70px;
+    background: gray;
+    color: #fff;
+    text-align: center;
+    padding: 4px;
+    font-weight: 500;
+    border-radius: 5px 5px 0 0;
+}
+ .calender .simple{
+    width: 70px;
+    border: 1px solid #ccc;
+    height: 35px;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+}
+.simple p{
+    margin-top: 5px;
+    font-weight: bold;
+}
+.rating .seat p{
+    font-weight: bold;
+    margin-bottom: 27px;
+}
+
+.date-and-rating .rate{
+    display: flex;
+    align-items: flex-end;
+}
+.rate .no-rate{
+    margin-right: 3px;
+}
+.rating .rate .avg{
+    color: #fadb14;
+    font-size: 14px;
+    font-weight: bold;
+}
+.rate .font-weight-bold{
+    font-weight: 600;
+}
+.price-book{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.price-book .view_session {
+    font-size: 17px;
+    font-weight: 700;
+}
+.price-book .currency{
+    padding-left: 0 !important;
+}
+.price-book .price-value{
+    font-weight: 600;
+    font-size: 16px;
+}
+.price-book .btn{
+    padding: 4px 25px;
+    background: #a02320;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: unset;
+    margin-left: 8px;
+}
+.share{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.share .text-share{
+    font-size: 11px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.share svg{
+    font-size: 30px;
+    cursor: pointer;
+}
+.share .facebook{
+    padding: 0 10px;
+}
+.details .upcoming-batch{
+    margin-top: 30px;
+}
+.details .upcoming-batch .batches{
+    position: relative
+}
+.details .upcoming-batch .batches .search-batch{
+    position: absolute;
+    left: 931px
+}
+.details .upcoming-batch .batches .navbar-form{
+    width: 300px
+}
+.details .upcoming-batch .batches .ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap{
+    height: 54px !important;
+}
+.upcoming-batch .batch-heading{
+    margin-bottom: 10px;
+}
+.details .upcoming-batch .table{
+    border: 1px solid #aeafb157;
+}
+
+.form-control{
+    border-right: 1px solid lightgray !important;
+}
+.date-month {
+    width: 70px;
+    background: #A02320;
+    color: #fff;
+    text-align: center;
+    padding: 4px;
+    font-weight: 500;
+    border-radius: 5px 5px 0 0;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table{
+    margin: 16px;
+    width: 96%;
+    border: none !important
+}
+
+.table>tbody>tr>td{
+    vertical-align: baseline;
+    text-align: center;
+    border-top : none !important;
+    border-bottom: 1px solid #ddd
+}
+
+.outer-table{
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mr-15{
+    margin-right: 15px;
+}
+
+.copyBtn{
+    font-size: 33px;
+    background: black;
+    padding: 6px;
+    color: white;
+    border-radius: 25px;
+}
+
+.reviews{
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.review-head{
+    margin-bottom: 10px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mb-15{
+    margin-bottom: 15px;
+}
+
+.ant-rate-disabled .ant-rate-star{
+    cursor: default !important;
+}
+
+@media only screen and (max-width: 376px) {
+    .details .upcoming-batch .ant-table{
+        width: 315px;
+        overflow-y: auto;
+    }
+    .details .date-and-rating .rating{
+        padding-left: 0;
+    }
+    .details .date-and-rating .seat p{
+        margin-bottom: unset;
+    }
+    .details .upcoming-batch .batches .navbar-form{
+        width: 343px;
+    }
+    .details .upcoming-batch .batches .search-batch{
+        position: absolute;
+        left: 0;
+        top: -50px;
+    }
+    .details .price-book a{
+        margin-bottom: 1px;
+    }
+}
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+    .details .upcoming-batch .batches .search-batch {
+        position: absolute;
+        left: 433px;
+    }
+    .date-and-rating .rating{
+        padding-left: unset;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .details .upcoming-batch .batches .search-batch {
+        position: absolute;
+        left: 339px;
+    }
+    .price-book .button-group{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+    .date-and-rating .rating{
+        padding-left: unset;
+    }
+    .date-and-rating .rating .rate{
+        display: flex;
+        width: max-content;
+        align-items: baseline;
+    }
+}

@@ -1,0 +1,21 @@
+
+ .login-page .form-control, .btn1 {
+  height: 70px;
+}
+ .login-page .text-info{
+  font-size: large;
+}
+ .login-page .heading h1{
+  font-size: 36px !important;
+}
+ .login-page p{
+  font-size: 16px;
+}
+ .login-page .btn-lg{
+  font-size: 1.50rem;
+}
+
+ .login-page .row{
+   display: flex;
+   justify-content: center;
+ }

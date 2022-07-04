@@ -1,0 +1,30 @@
+.live_Lerning .statement{
+    margin-top: 15%;
+}
+
+.micro-course .session-block{
+    margin-top: 10px;
+    border: 1px solid #a09f9f;
+    box-shadow: 0 0 9px 0 rgba(102, 102, 102, 0.13);
+    background: linear-gradient(to right, #7A2EF4, #00BFFF);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.session-block .title, .live{
+    text-align: center;
+    padding: 5px 10px;
+}
+.title h4, .link{
+    color: #fff;
+}
+
+.intro-content-description1{
+    width: 100%;
+    line-height: 1.2em;
+    height: 5.6em;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}

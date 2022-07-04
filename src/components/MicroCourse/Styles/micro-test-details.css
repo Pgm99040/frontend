@@ -1,0 +1,89 @@
+.test-details {
+    font-size: 90% !important; }
+.test-details .invites-bg {
+    border: solid 1px #1a1746;
+    color: #1a1746; }
+.test-details .new-test .card .card-body {
+    padding: 150px; }
+.test-details .card {
+    border-radius: 4px;
+    box-shadow: 0 0 9px 0 rgba(102, 102, 102, 0.13); }
+.test-details .card .card-body .card-text .question {
+    margin: 0; }
+.test-details .card .card-body .card-text ul {
+    padding-left: 10px; }
+.test-details .card .card-body .card-text ul li {
+    list-style: none; }
+.test-details .card .card-body .card-text .pages li {
+    display: inline-block;
+    padding: 3px 10px;
+    border: solid 1px #1d1d1c1f;
+    margin-right: 10px;
+    cursor: pointer; }
+.test-details .card .card-body .card-text .pages li.active {
+    background: #1a1746; }
+.test-details a {
+    cursor: pointer; }
+.test-details .candidates table thead tr {
+    height: 50px;
+    box-shadow: 4px 4px 9px 0 #eae7e7;
+    font-weight: bold;
+    font-size: 12px; }
+.test-details .candidates table tbody tr {
+    height: 56px;
+    opacity: 0.8;
+    font-size: 13px;
+    background-color: #f6f9fc;
+    box-shadow: 4px 4px 9px 0 #eae7e7; }
+.test-details .candidates table tbody tr td .link {
+    cursor: pointer;
+    width: 100%;
+    text-decoration: underline; }
+.test-details .modal-body .form-group .container {
+    position: relative; }
+.test-details .modal-body .form-group .container .checkmark {
+    position: absolute;
+    bottom: 6px;
+    right: 10px; }
+
+
+.circular-progressbar {
+    width: 50vw;
+    height: 35vh;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+    fill: rgb(40, 167, 68) !important;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: rgb(40, 167, 68) !important;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 20px!important;
+    font-size: 15px!important;
+}
+
+.text-primary{
+    color:#007bff!important;
+}
+.text-error{
+    color: #f51814;
+}
+.text-success{
+    color: #23a526 !important;
+}
+.p-0{
+    padding: 5px 0;
+}
+
+.quiz-body {
+    font-family: "Open Sans", Arial, sans-serif;
+    min-height: 400px;
+}
+
+.evaluate {
+    font-size: 15px;
+}

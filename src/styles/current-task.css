@@ -1,0 +1,358 @@
+.loading {
+    position: fixed;
+    left: 48%;
+    top: 45%;
+    z-index: 9999;
+}
+.task_pay{
+    font-size: 12px;
+    text-align: left;
+    color: #676767;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+}
+.paddingBottom{
+    padding-bottom: 10px;
+}
+.ant-tabs .ant-tabs-bar{
+float: left;
+border-bottom: none;
+}
+.ant-tabs:not(.ant-tabs-vertical) > .ant-tabs-content > .ant-tabs-tabpane{
+    text-align: left;
+}
+.tabs-text{
+    font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  padding-bottom: 15px;
+}
+.ant-tabs-nav .ant-tabs-tab-active {
+    font-weight: bold!important;
+    color: #333333;
+    opacity: 1!important;
+}
+.ant-tabs-nav .ant-tabs-tab:hover{
+    color: #444444;
+}
+.ant-tabs-ink-bar {
+    background-color: #04b9fe;
+}
+.ant-tabs-nav .ant-tabs-tab{
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #595959;
+    opacity: 0.7;
+}
+.attach-btn{
+    border: none;
+    font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #02367a;
+}
+.displayInline{
+    display: -webkit-inline-box;
+    display: -ms-inline-box;
+    float:left;
+    width: 100%;
+}
+.post-btn{
+    background-color: #4073f9;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    border-color: #4073f9;
+    width: 100%;
+}
+.margin-Bottom{
+    margin-bottom: 10px;
+}
+.answer-Id{
+    font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #02367a;
+  padding-bottom: 5px;
+  float:left;
+}
+.answer-filename{
+    font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333333;
+}
+.answer-hour{
+    font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  opacity: 0.3;
+  color: #333333;
+}
+.answer-desc{
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    color: #333333;
+    text-align: justify;
+}
+.m-bottom-30{
+ margin-bottom: 30px;
+}
+.answer-list{
+    margin-bottom: 20px;
+}
+.image-size{
+    width:55px!important;
+    height:55px!important;
+    border-radius: 50%;
+}
+.mentor-assigned{
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #444444;
+    padding-bottom: 10px;
+}
+.mentor-name{
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #686868;
+}
+.mentor-pos{
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #686868;
+}
+.ant-rate{
+    font-size:14px;
+}
+.mentor-erpertise{
+    font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #444444;
+  padding-bottom: 5px;
+}
+.mentor-tech{
+    font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #444444;
+  padding-bottom: 20px;
+}
+.p-bottom-50{
+    padding-bottom: 20px;
+}
+.end-task{
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #444444;
+    padding-bottom: 10px;
+}
+.endTask-desc{
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #404852;
+    padding-bottom: 10px;
+}
+.endTask-rating{
+    font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  padding-bottom: 10px;
+}
+.endTask-select{
+ width: 100%;
+ padding-bottom: 10px;
+}
+.m-Bottom-30{
+    margin-bottom: 20px;
+}
+.ensTask-btn{
+    color: #02367a;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    border-color: #02367a;
+    float: right;
+}
+.description-desc{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #595959;
+    padding-bottom: 10px;
+}
+.description-details{
+    font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #595959;
+  padding-bottom: 10px;
+}
+.discussionsmentee-imageSize{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.discussion-position{
+    position: relative;
+}
+.discussion-position textarea{
+    padding-right:30%;
+}
+.discussion-btn{
+    position: absolute !important;
+    right: 15px;
+    top: 20px;
+    width: 100px;
+    border-color: #02367a;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #02367a;
+}
+.discussions-imageSize{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.discussion-name{
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #333333;
+    padding-bottom: 5px;
+}
+.discussion-time{
+    opacity: 0.3;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #333333;
+}
+.discussion-text{
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #333333;
+}
+
+.downloadable {
+    display: inline-flex;
+}
+.mentee-view .user-mode .flex-column{
+    display: flex;
+    justify-content: end !important;
+}
+
+.back-btn{
+    /*text-decoration-line:underline;*/
+    color:blue;
+    padding-left:12px;
+    padding-bottom:12px
+}
+
+/*------------Chat-App-------------*/
+.applozic-launcher
+.chat-with-mentor .ant-modal{
+    width: 700px !important;
+    height: 400px !important;
+}
+.chat-with-mentor .ant-modal .anticon-close{
+    /*display: none !important;*/
+}
+
+.hyperLink {
+    margin-top: 25px !important;
+}
+
+.hyperLink a:hover{
+    text-decoration: underline !important;
+}

@@ -1,0 +1,12 @@
+.main-credits-card{
+    width: 408px;
+    height: 252px;
+    padding: 25px 15px 13px;
+    border-radius: 10px;
+    box-shadow: 0 5px 33px 0 rgb(0 0 0 / 11%);
+    background-color: #e4e0e0;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+ 
+}

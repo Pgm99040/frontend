@@ -1,0 +1,34 @@
+.evaluationRecord {
+    display: flex;
+    justify-content: center; }
+.evaluationRecord .evaluationData {
+    margin-top: 40px;
+    overflow-x: hidden; }
+.evaluationRecord .evaluationData .main-card {
+    margin-bottom: 20px; }
+.evaluationRecord .evaluationData .test-section {
+    min-height: 175px;
+    color: #f0f0f0 !important;
+    background: linear-gradient(to right, #7A2EF4, #00BFFF);
+    border-radius: 12px;
+    border: none;
+padding: 30px;
+}
+.test-section a{
+    color: #f0f0f0 !important;
+}
+.test-section .test-now:hover{
+    text-decoration: underline;
+}
+.evaluationRecord .evaluationData .test-section .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+.evaluationRecord .evaluationData .link-text:hover {
+    text-decoration: underline; }
+
+@media only screen and (max-width: 1064px) {
+    .evaluationRecord .evaluationData .main-card {
+        margin-bottom: 20px; }
+    .evaluationRecord .evaluationData .main-card .btn {
+        white-space: unset; } }
